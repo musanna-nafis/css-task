@@ -1,0 +1,10 @@
+.static-box {
+    position: static;
+    top: 20px;
+    left: 30px;
+    z-index: 10;
+
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #000;
+}

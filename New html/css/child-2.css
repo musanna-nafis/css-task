@@ -1,0 +1,14 @@
+/* 2 */
+
+#main-list > li {
+    font-weight: bold;
+    background-color: lightgray;
+    margin-bottom: 20px;
+  }
+  
+  #main-list li ul {
+    font-weight: normal;
+    background-color: white;
+  }
+
+

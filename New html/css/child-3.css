@@ -1,0 +1,7 @@
+/* 3 */
+#intro-text > span {
+    color: green;               
+    text-decoration: underline;
+    margin-right: 5px;
+  }
+  

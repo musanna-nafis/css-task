@@ -1,0 +1,8 @@
+#page-footer p,
+#page-footer a,
+#page-footer span {
+  color: #555;
+  font-size: 0.9rem; 
+  text-align: center;
+  display: block; 
+}
