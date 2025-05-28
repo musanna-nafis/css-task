@@ -1,0 +1,90 @@
+#sidebar {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-start: 0;
+  width: 16rem;
+  background-color: #2d3748;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 40;
+}
+#sidebar.hidden-mobile {
+  display: none;
+}
+@media (min-width: 768px) {
+  #sidebar.hidden-mobile {
+    display: block;
+    position: relative;
+    transform: translateX(0);
+  }
+}
+#sidebar .p-6 {
+  padding: 1.5rem;
+  border-bottom: 1px solid #4a5568;
+}
+#sidebar h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #63b3ed;
+}
+#sidebar nav {
+  margin-top: 1.5rem;
+}
+#sidebar nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+#sidebar nav ul li {
+  position: relative;
+}
+#sidebar nav ul li a,
+#sidebar nav ul li button {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  color: #d1d5db;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s, color 0.2s;
+  margin: 0 0.75rem;
+  width: calc(100% - 1.5rem);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+}
+#sidebar nav ul li a:hover,
+#sidebar nav ul li button:hover {
+  background-color: #374151;
+  color: white;
+}
+#sidebar nav ul li a.active-link,
+#sidebar nav ul li button.active-link {
+  background-color: #3182ce;
+  color: white;
+}
+#sidebar nav ul li .sidebar__nav-item__dropdown-menu {
+  background-color: #4b5563;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  margin: 0.25rem 0 0 0.75rem;
+  display: none;
+  list-style: none;
+}
+#sidebar nav ul li .sidebar__nav-item__dropdown-menu--show {
+  display: block;
+}
+#sidebar nav ul li .sidebar__nav-item__dropdown-menu li a {
+  display: block;
+  padding: 0.5rem 2rem;
+  color: #d1d5db;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+#sidebar nav ul li .sidebar__nav-item__dropdown-menu li a:hover {
+  background-color: #4b5560;
+  color: white;
+}
+
+/*# sourceMappingURL=page-centric.css.map */
