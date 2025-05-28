@@ -1,0 +1,33 @@
+<head>
+  <style>
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: 60px 60px;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.grid-item {
+  background-color: #17A2B8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.itemA {
+  grid-row: 1 / span 2;
+}
+
+  </style>
+</head>
+
+<div class="grid-container">
+  <div class="grid-item itemA">A (Spans 2 Rows)</div>
+  <div class="grid-item">B</div>
+  <div class="grid-item">C</div>
+  <div class="grid-item">D</div>
+</div>
