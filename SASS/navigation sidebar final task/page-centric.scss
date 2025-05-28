@@ -1,41 +1,33 @@
 #sidebar {
   position: fixed;
-  inset-block: 0;
-  inset-inline-start: 0;
-  width: 16rem;
+  width: 256px;
   background-color: #2d3748;
   color: white;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  z-index: 40;
-
+  
   &.hidden-mobile {
     display: none;
-
-    @media (min-width: 768px) {
+  }
+  @media (min-width: 768px) {
+    &.hidden-mobile {
       display: block;
       position: relative;
-      transform: translateX(0);
     }
   }
 
   .p-6 {
-    padding: 1.5rem;
     border-bottom: 1px solid #4a5568;
   }
 
   h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 24px;
     color: #63b3ed;
   }
 
   nav {
-    margin-top: 1.5rem;
+    margin-top: 24px;
 
     ul {
       list-style: none;
-      padding-left: 0;
 
       li {
         position: relative;
@@ -44,17 +36,9 @@
         button {
           display: flex;
           align-items: center;
-          padding: 0.75rem 1.5rem;
+          padding: 12px 24px;
           color: #d1d5db;
-          border-radius: 0.5rem;
-          transition: background-color 0.2s, color 0.2s;
-          margin: 0 0.75rem;
-          width: calc(100% - 1.5rem);
           background: none;
-          border: none;
-          cursor: pointer;
-          font: inherit;
-          text-decoration: none;
 
           &:hover {
             background-color: #374151;
@@ -69,27 +53,21 @@
 
         .sidebar__nav-item__dropdown-menu {
           background-color: #4b5563;
-          padding: 0.5rem 0;
-          border-radius: 0.5rem;
-          margin: 0.25rem 0 0 0.75rem;
           display: none;
-          list-style: none;
 
           &--show {
             display: block;
           }
 
-          li a {
-            display: block;
-            padding: 0.5rem 2rem;
-            color: #d1d5db;
-            border-radius: 0.5rem;
-            text-decoration: none;
-            transition: background-color 0.2s, color 0.2s;
+          li {
+            a {
+              display: block;
+              color: #d1d5db;
 
-            &:hover {
-              background-color: #4b5560;
-              color: white;
+              &:hover {
+                background-color: #4b5560;
+                color: white;
+              }
             }
           }
         }
