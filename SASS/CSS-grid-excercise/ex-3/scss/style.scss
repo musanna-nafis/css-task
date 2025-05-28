@@ -1,0 +1,26 @@
+// 🎨 Variables
+$container-bg: lightgray;
+$item-bg: yellow;
+$item-text-color: black;
+$container-width: 600px;
+$padding: 10px;
+$gap: 10px;
+$item-padding: 20px 0;
+$item-font-size: 20px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: $container-width;
+  background-color: $container-bg;
+  padding: $padding;
+  gap: $gap;
+
+  .grid-item {
+    background-color: $item-bg;
+    color: $item-text-color;
+    text-align: center;
+    padding: $item-padding;
+    font-size: $item-font-size;
+  }
+}

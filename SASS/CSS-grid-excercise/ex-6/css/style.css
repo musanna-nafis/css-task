@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 60px 60px;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.grid-container .grid-item {
+  background-color: #17A2B8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.grid-container .grid-item.itemA {
+  grid-row: 1/span 2;
+}
+
+/*# sourceMappingURL=style.css.map */

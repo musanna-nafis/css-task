@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 100px;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.grid-container > div {
+  background-color: #17A2B8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

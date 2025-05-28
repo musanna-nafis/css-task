@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 600px;
+  background-color: lightgray;
+  padding: 10px;
+  gap: 10px;
+}
+.grid-container .grid-item {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

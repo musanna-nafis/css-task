@@ -1,0 +1,30 @@
+
+$container-bg: lightgray;
+$item-bg: orange;
+$highlight-bg: red;
+$text-color: white;
+$padding: 10px;
+$item-padding: 20px 0;
+$item-font-size: 18px;
+$gap: 10px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: $container-bg;
+  padding: $padding;
+  gap: $gap;
+
+  .grid-item {
+    background-color: $item-bg;
+    color: $text-color;
+    text-align: center;
+    padding: $item-padding;
+    font-size: $item-font-size;
+
+    &.item1 {
+      grid-column: span 2;
+      background-color: $highlight-bg;
+    }
+  }
+}

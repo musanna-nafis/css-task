@@ -1,0 +1,40 @@
+$primary-color: #e83e8c;
+$special-color: #c91863;
+$text-color: white;
+$gap: 10px;
+$border-color: lightgray;
+$border-radius: 5px;
+$row-height: 60px;
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns:
+    [col1-start] 1fr
+    [col2-start] 1fr
+    [col3-start] 1fr [col3-end];
+
+  grid-template-rows:
+    [row1-start] $row-height
+    [row2-start] $row-height;
+
+  gap: $gap;
+  width: 100%;
+  border: 1px solid $border-color;
+
+  .grid-item {
+    background-color: $primary-color;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: $border-radius;
+  }
+
+  .special-item {
+    grid-column: col2-start / col3-end;
+    grid-row: row1-start;
+    background-color: $special-color;
+  }
+}

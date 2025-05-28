@@ -1,0 +1,29 @@
+$primary-color: #17A2B8;
+$text-color: white;
+$gap: 10px;
+$border-color: lightgray;
+$border-radius: 5px;
+$row-height: 60px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: $row-height $row-height;
+  gap: $gap;
+  width: 100%;
+  border: 1px solid $border-color;
+
+  .grid-item {
+    background-color: $primary-color;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: $border-radius;
+
+    &.itemA {
+      grid-row: 1 / span 2;
+    }
+  }
+}
