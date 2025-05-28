@@ -1,0 +1,63 @@
+/* 1*/
+
+#content-block > p {
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px solid green;
+  }
+
+
+/* 2 */
+
+#main-list > li {
+    font-weight: bold;
+    background-color: lightgray;
+    margin-bottom: 20px;
+  }
+  
+  #main-list li ul {
+    font-weight: normal;
+    background-color: white;
+  }
+
+/* 3 */
+#intro-text > span {
+    color: green;               
+    text-decoration: underline;
+    margin-right: 5px;
+  }
+  
+/*4 */
+
+#top-menu > a {
+    background-color: #007BFF;  
+    color: white;                
+    border-radius: 5px;          
+    padding: 5px 10px 5px 5px;           
+    text-decoration: none;       
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+/* 5 */
+
+#registration-form > input {
+    border: 2px solid #4CAF50;
+    background-color: #f0f8ff;      
+    padding: 8px 10px;            
+    margin-bottom: 10px;            
+    display: block;               
+  }
+
+/*6 */
+
+p.highlight {
+    background-color: #ffeeba; 
+    color: #333333;             
+    padding: 10px;             
+    border-radius: 5px;          
+  }
+
+  /* 7 */
+
+  

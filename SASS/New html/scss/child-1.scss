@@ -1,0 +1,14 @@
+/* 1*/
+$primary-bg: #007BFF;
+$text-color: white;
+$border-color: green;
+
+#content-block {
+  > p {
+    background-color: $primary-bg;
+    color: $text-color;
+    border: 2px solid $border-color;
+  }
+}
+  
+    
