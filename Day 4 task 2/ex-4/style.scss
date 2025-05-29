@@ -1,0 +1,13 @@
+.testimonial {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e6e6e6;
+    text-align: center;
+  
+    @media (min-width: 1024px) {
+      width: 60%;
+    }
+  }
+  

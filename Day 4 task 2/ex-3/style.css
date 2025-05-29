@@ -1,0 +1,26 @@
+.cta {
+  text-align: center;
+}
+.cta .cta-button {
+  font-size: 16px;
+  padding: 12px 24px;
+  background: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .cta .cta-button {
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .cta .cta-button {
+    font-size: 20px;
+    padding: 20px 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

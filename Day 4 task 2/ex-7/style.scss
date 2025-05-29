@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  
+    input,
+    button {
+      padding: 10px;
+    }
+  }
+  

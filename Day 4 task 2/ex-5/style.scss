@@ -1,0 +1,24 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  
+  .sidebar {
+    width: 100%;
+    background: #f0f0f0;
+    padding: 20px;
+  
+    @media (min-width: 768px) {
+      width: 200px;
+      flex-shrink: 0;
+    }
+  }
+  
+  main {
+    padding: 20px;
+  }
+  

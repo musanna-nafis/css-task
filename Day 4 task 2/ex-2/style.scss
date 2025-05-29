@@ -1,0 +1,16 @@
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    li {
+      padding: 15px;
+      background: #f8f8f8;
+    }
+  
+    @media (min-width: 1024px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

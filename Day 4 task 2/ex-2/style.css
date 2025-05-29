@@ -1,0 +1,17 @@
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feature-list li {
+  padding: 15px;
+  background: #f8f8f8;
+}
+@media (min-width: 1024px) {
+  .feature-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
