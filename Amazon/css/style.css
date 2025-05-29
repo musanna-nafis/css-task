@@ -142,6 +142,10 @@
   {
     margin: 20px 0 0 180px;
   }
+  .boxflex{
+    display:flex;
+    justify-content: flex-start;
+  }
   .container {
     display: flex;
     justify-content: flex-start;
@@ -177,3 +181,131 @@
   .main-image img {
     width: 300px;
     max-width: 100%;
+  }
+  .desc{
+    padding-top:10px;
+    opacity: .7;
+  }
+  .middle-section {
+    max-width: 900px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #0f1111;
+  }
+  
+  .product-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .product-subtitle {
+    font-size: 16px;
+    color: #565959;
+    margin-bottom: 10px;
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    background-color: #f7dfa5;
+    color: #111;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .price-box {
+    margin-bottom: 16px;
+  }
+  
+  .deal-badge {
+    color: white;
+    background-color: #cc0c39;
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 4px;
+  }
+  
+  .price-line {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  
+  .discount {
+    color: #cc0c39;
+    font-weight: bold;
+  }
+  
+  .current-price {
+    color: #B12704;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #565959;
+    font-size: 14px;
+  }
+  
+  .shipping {
+    font-size: 13px;
+    color: #565959;
+  }
+  
+  .color-selector {
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .color-selector label {
+    font-weight: bold;
+  }
+  
+  .color-name {
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  .color-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 6px;
+  }
+  
+  .color-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .color-box.black { background-color: #333; }
+  .color-box.teal { background-color: #63c7c7; }
+  .color-box.grey { background-color: #ccc; }
+  .color-box.orange { background-color: #f90; }
+  
+  .style-pattern {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .tech-specs {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
