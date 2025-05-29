@@ -1,0 +1,14 @@
+.image-container {
+    width: 100%;
+  
+    @media (min-width: 768px) {
+      width: 70%;
+    }
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto; 
+    display: block;
+  }
+  

@@ -1,0 +1,20 @@
+.btn {
+    padding: 12px 24px;   
+    font-size: 16px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;  
+    cursor: pointer;
+  
+    @media (min-width: 768px) {
+      padding: 16px 32px;   
+      font-size: 17px;
+    }
+  
+    @media (min-width: 1024px) {
+      padding: 20px 40px; 
+      font-size: 18px;
+    }
+  }
+  
