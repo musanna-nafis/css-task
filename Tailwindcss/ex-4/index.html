@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <header class="bg-sky-100 p-4 flex justify-between items-center shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-sky-700">
+      MyLogo
+    </div>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="text-sky-600 hover:text-sky-800 font-medium">Home</a></li>
+        <li><a href="#about" class="text-sky-600 hover:text-sky-800 font-medium">About</a></li>
+        <li><a href="#projects" class="text-sky-600 hover:text-sky-800 font-medium">Projects</a></li>
+        <li><a href="#" class="text-sky-600 hover:text-sky-800 font-medium">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="h-screen flex flex-col items-center justify-center bg-gray-100 pt-16"> <h1 class="text-4xl font-bold text-gray-800 mb-6 text-center px-4">Welcome to Our Awesome Site!</h1>
+    <a href="#" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 text-lg">
+      Get Started
+    </a>
+  </section>
+
+  <section id="projects" class="py-16 px-4 bg-gray-100"> <div class="max-w-6xl mx-auto"> <h2 class="text-3xl sm:text-4xl font-semibold text-gray-800 mb-12 text-center">
+        Our Projects
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-sky-700 mb-2">Project Curl</h3>
+          <p class="text-gray-600 text-sm">
+            A revolutionary platform designed to streamline your daily workflow and boost productivity with intuitive features.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-sky-700 mb-2">Project Gradient</h3>
+          <p class="text-gray-600 text-sm">
+            This is a specific initiative focused on African pharmacogenetics, aiming to expand knowledge in this area and improve healthcare outcomes. It stands for Genomic Research Approach for Diversity and Optimizing Therapeutics. 
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-sky-700 mb-2">Project Divergent</h3>
+          <p class="text-gray-600 text-sm">
+            A cutting-edge data analytics tool that provides deep insights and helps businesses make informed decisions.
+          </p>
+        </div>
+        </div>
+    </div>
+  </section>
+</body>
+</html>

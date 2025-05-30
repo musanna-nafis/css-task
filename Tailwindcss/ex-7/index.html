@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+  <header class="bg-sky-100 p-4 flex justify-between items-center shadow-md sticky top-0 z-50">
+    <div class="text-2xl font-bold text-sky-700">
+      MyLogo
+    </div>
+
+    <button aria-label="Open Menu" class="text-sky-700 text-3xl block md:hidden">
+      ☰
+    </button>
+
+    <nav class="hidden md:flex md:items-center">
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="text-sky-600 hover:text-sky-800 font-medium">Home</a></li>
+        <li><a href="#about" class="text-sky-600 hover:text-sky-800 font-medium">About</a></li>
+        <li><a href="#projects" class="text-sky-600 hover:text-sky-800 font-medium">Projects</a></li>
+        <li><a href="#contact" class="text-sky-600 hover:text-sky-800 font-medium">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="flex-grow">
+      <section id="home" class="h-screen flex flex-col items-center justify-center bg-gray-100 pt-16">
+        <h1 class="text-4xl font-bold text-gray-800 mb-6 text-center px-4">Welcome to Our Awesome Site!</h1>
+        <a href="#" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 text-lg">
+          Get Started
+        </a>
+      </section>
+
+      <section id="about" class="py-16 px-4 bg-white shadow-sm">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl sm:text-4xl font-semibold text-gray-800 mb-6">About Us</h2>
+          <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
+            We are a passionate team dedicated to creating amazing things...
+          </p>
+        </div>
+      </section>
+
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-center space-x-6 mb-4">
+            <a href="#" class="text-gray-300 hover:text-sky-400">Facebook</a>
+            <a href="#" class="text-gray-300 hover:text-sky-400">Twitter</a>
+            <a href="#" class="text-gray-300 hover:text-sky-400">Instagram</a>
+            <a href="#" class="text-gray-300 hover:text-sky-400">LinkedIn</a>
+        </div>
+        <p class="text-center text-gray-400 text-sm">
+            © 2025 MySite. All rights reserved.
+        </p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
